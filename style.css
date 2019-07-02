@@ -1,0 +1,19 @@
+body{ 
+    margin:0;
+}
+
+nav{
+    background-color:orange;
+    height:50px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight:bold;
+    font-size:15pt;
+    font-family: 'Montserrat', sans-serif;   
+}
