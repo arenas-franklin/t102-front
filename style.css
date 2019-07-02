@@ -1,5 +1,6 @@
 body{ 
     margin:0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
@@ -15,7 +16,7 @@ nav a{
     color: #000000;
     font-weight:bold;
     font-size:15pt;
-    font-family: 'Montserrat', sans-serif;   
+      
 }
 
 .banner{
@@ -39,5 +40,56 @@ h1{
 
 .cadastro{
     display:flex;
-    flex-direction: column;
+    justify-content: center;
+    background-color:gold;
+    padding-bottom:15px;
+
+}
+
+.cadastro div{
+    display:flex;
+    flex-direction:column;
+    width: 300px;
+    
+  
+}
+
+input{
+    border-radius: 10px;
+    margin-bottom:8px;
+    padding:5px;
+
+}
+
+.botao{
+    background-color:aqua;
+    color:black;
+}
+
+.botao:hover{
+    background-color:pink;
+    color:azure;
+}
+
+
+nav a:hover{
+    color:#f6f6f6;
+}
+
+::placeholder{
+    color:blue;
+    font-size:10pt;
+}
+
+footer{
+    background-color:rgb(192, 149, 7);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:20px;
+    padding-bottom: 10px;
+}
+.icon{
+    height:80px;
+    
 }
